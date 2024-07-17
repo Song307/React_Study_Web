@@ -8,7 +8,7 @@ function Home() {
             <div className="Home">
                 <div className="video_box">
                     <video muted autoPlay loop>
-                        <source src="mouse_coding.mp4" type="video/mp4" />
+                        <source src="Main.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div className="titleNav">
