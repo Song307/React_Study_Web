@@ -1,0 +1,95 @@
+.InputTest {
+    max-width: 500px;
+    width: 100%;
+    border:  1px solid gray;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+
+.InputList {
+    border: 1px solid gray;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    padding-bottom: 20px;
+}
+.InputList .Col {
+    display : flex;
+    align-items: center;
+    gap : 50px;
+    
+    border-bottom: 1px solid gray;
+    padding: 10px 10px 10px 5px;
+    font-weight: bold;
+}
+
+.InputList .id{
+    width: 50px;
+}
+.InputList .name{
+    width: 90px;
+}
+.InputList .age{
+    width: 20px;
+}
+.InputList .gender{
+    text-align: left;
+    width: 20px;
+}
+
+
+
+
+
+.InputItem {
+    display : flex;
+    align-items: center;
+    gap : 70px;
+    
+    border-bottom: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+}
+
+.InputItem .id{
+    width: 20px;
+}
+.InputItem .name{
+    flex: 1;
+    width: 0px;
+}
+.InputItem .age{
+    width: 0px;
+}
+.InputItem .gender{
+    text-align: left;
+    width: 20px;
+}
+
+
+.InputItem .btn{
+    cursor: pointer;
+    color:gray;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: rgb(220,220,220);
+}
+
+.InputItem .btn:hover{
+    cursor: pointer;
+    color:rgb(182, 147, 147);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: left;
+    
+    background-color: rgb(95, 81, 81);
+}
+
+
+.InputEditor_input{
+    text-align: right;
+}

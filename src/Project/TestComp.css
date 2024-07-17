@@ -1,0 +1,55 @@
+/* TestComp */
+.childComp{                                                                                                                                                                                                                                                                                                                                                       
+    border: 1px solid black;
+    margin: 10px;
+    text-align: right;
+    padding: 0px 10px;
+  }
+  
+  .childComp h1, h2{
+    text-align: center;
+  }
+
+  
+/* ChildComp3Item */
+  .compItem {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap : 20px;
+    padding: 10px 0px ;
+    border-bottom: 1px solid black;
+  }
+
+  .compItem .item_Name{
+    width: 100px;
+}
+  .compItem .item_Id{
+    width: 100px;
+  }
+.compItem .btn_Del{
+    cursor:pointer;
+    color:gray;
+    background-color: whitesmoke;
+    font-size: 14px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;;
+    width: 40px;
+}
+.compItem .btn_Del:hover{
+    border-color: red;
+    background-color: aqua;
+    color:white;
+}
+.compItem .btn_Del:active{
+    border-color: red;
+    background-color: rgb(40, 110, 110);
+    color:white;
+}
+
+.compItem .list_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}

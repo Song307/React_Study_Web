@@ -1,0 +1,24 @@
+
+
+.Registration .inputInfo{
+    text-align: right;
+    font-weight: 100;
+}
+
+.Registration .btn_submit{
+    text-align: center;
+}
+
+.Registration .btn_submit button{
+    text-align: center;
+    font-weight: 100;
+}
+
+.ex1 {color : white; padding : 40px 0px 0px 800px; margin : 0px 0px 10px 0px; text-shadow : 1px 1px black;}
+.ex1 ul {padding : 0; margin-left: 700px; width : 700px;}
+.ex1 ul li {display : inline-block; list-style-type : none; padding : 0px 15px;}
+.ex1 ul li a {color : white; text-decoration : none; transition: font-size 1s;}
+.ex1 ul li a:hover {color : violet; font-size : 110%;}        
+.headline {display : inline-block; background-color : skyblue; color : white ; width : 100%; height : 50px; display : inline-block;}
+.headline_logo { margin : -37px 400px; padding : 0px; opacity: 1;}   
+.headline_contents { height: 70px; padding : 0px ; margin : -23px 0px;}    

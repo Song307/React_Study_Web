@@ -1,0 +1,141 @@
+.Home {
+    /* background: repeating-radial-gradient(
+        circle, #a764a2, #00fff7, red, rgb(108, 108, 211) 100%); */
+        
+        width: 1903px;
+    height: 800px;
+    transition: width 1s;
+    /* background-image: url("D:\web\study\public\stars-1544999.jpg"); */
+    background-repeat: no-repeat;
+    /* background: linear-gradient(
+    to bottom, #8b68b9, #00fff7, rgb(206, 194, 223), white 100%); */
+}
+
+/* filter: blur(4px); */
+
+.video_box { position: relative;  width: 1903px; height: 800px; overflow: hidden; margin: 0px auto;}
+
+.video_box video { width: 100%; }
+
+
+
+.titleNav{
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    width: 1901px;
+    height: 800px;
+    color: white;
+    display: inline;
+}
+.titleNav .title_box{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 300px 700px;
+    height: 200px;
+    transition: 1s;
+    
+
+}
+.titleNav .title_box:hover{
+    
+    margin: 250px 700px;
+    height: 300px;
+}
+.titleNav .title_box h1{
+    font-size: 50px;
+}
+
+
+
+
+.contents{
+    width: 1900px;
+    height: 400px;
+    background-color: rgb(54, 138, 15);
+    border-bottom: 1px solid black;
+    display: inline;
+    
+}
+
+.contents .nav{
+    width: 1092px;
+    margin-left: 775px;
+    display: flex;
+    height: 400px;
+    transition: 1s;
+    transform: skew(-10deg);
+    background-color: rgb(54, 138, 15);
+    
+}
+.contents .nav:hover{
+    margin-left: 775px;
+    
+}
+
+/* //////////////////////////list////////////////////// */
+.contents .nav .list{
+    padding-top: 1px;
+    width: 200px;
+    height:400px;
+    background-color: blue;
+    transition: 1s;
+    
+    padding-left: 20px;
+    color: white;
+    
+}
+
+.contents .nav .list:hover{
+    width : 500px;
+    color: white;
+    margin-left: -25px;
+}
+
+/* //////////////////////database//////////////// */
+.contents .nav .list_database{
+    padding-top: 1px;
+    width: 200px;
+    height:400px;
+    background-color: rgb(54, 138, 15);
+    transition: 1s;
+    padding-left: 20px;
+    color: white;
+
+}
+.contents .nav .list_database:hover{
+    width : 470px;
+    color: white;
+    margin-left: -25px;
+}
+
+/* /////////////////////html/////////////////////// */
+.contents .nav .list_html {
+    padding-top: 1px;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(221, 41, 41);
+    transition: width 1s, margin-left 1s;
+    padding-left: 20px;
+    color: white;
+}
+
+.contents .nav .list_html:hover {
+    width: 500px;
+    margin-left: -25px;
+}
+
+.contents .nav .nav_box {
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+    width: 450px;
+}
+
+/* list_html에 hover 시 nav_box의 opacity와 visibility 변경 */
+.contents .nav .list_html:hover + .nav_box {
+    opacity: 1;
+    visibility: visible;
+}
+
+
