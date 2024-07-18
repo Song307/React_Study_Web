@@ -5,6 +5,7 @@ import InputTest from '../InputList/InputTest'
 import Login from '../LoginForm/Login'
 import UserList  from '../LoginForm/UserList'
 import Home from './Home'
+import CssEx1 from '../study_page/CssEx1'
 
 function Routing(){
     return(
@@ -17,6 +18,7 @@ function Routing(){
                     <Route path='/3' element={<InputTest/>}/>
                     <Route path='login' element={<Login/>}/>
                     <Route path='userlist' element={<UserList/>}/>
+                    <Route path='/css' element={<CssEx1/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
