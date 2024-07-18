@@ -43,7 +43,7 @@ function Home() {
             </div>
             <div className="contents">
                 <div className='nav'>
-                    <h1>web개발 </h1>
+                <h1>web개발 마크업 Language</h1>
 
                     <span className='list_red'>
                         <h1>HTML</h1>
