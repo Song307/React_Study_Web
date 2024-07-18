@@ -57,7 +57,7 @@
     border-bottom: 1px solid rgb(127, 127, 145);
 }
 .Nav ul .li_icon_nav{
-    padding-left:50%;
+    padding-left: 20vw;
     display: inline-flex;
     width: 300px;
     height: 30px;

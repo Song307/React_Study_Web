@@ -1,6 +1,7 @@
 import './Home.css';
 import { useRef, useState } from "react";
 
+
 function icon(icon, width, height){
     if(icon=="html"){
         return( <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" class="bi bi-filetype-html" viewBox="0 0 16 16">
@@ -20,8 +21,13 @@ function icon(icon, width, height){
             <path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313M13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A5 5 0 0 0 13 5.698M14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A5 5 0 0 0 13 8.698m0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525"/>
             </svg>
         )
+    } else if(icon=="gpt"){
+        return(
+            <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
+            <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+            </svg>
+        )
     }
-    
 }
 
 function Home() {
@@ -41,10 +47,14 @@ function Home() {
                     </div>
                 </div>
             </div>
+            {/* ///////////////////////////////////////Markup Language///////////////////////////////////////// */}
             <div className="contents">
                 <div className='nav'>
-                <h1>web개발 마크업 Language</h1>
-
+                    <div className='nav_title'>
+                        <h1>마크업 Language 및 Reference</h1>
+                        <p>AI를 통한 개발을 지향한다는 것은 혁신적이고 효율적인 미래를 설계하는 것입니다. 인공지능의 힘을 활용하여 복잡한 문제를 해결하고, 창의적 아이디어를 현실로 만들어갑니다. 이를 통해 우리는 더 스마트하고, 더 빠르게, 더 나은 세상을 만들어갈 것입니다.</p>
+                    </div>
+                
                     <span className='list_red'>
                         <h1>HTML</h1>
                         {icon("html", 64, 64)}
@@ -67,9 +77,10 @@ function Home() {
                         </div>
                     </span>
                     <span className='list_yellow'>
-                        <h1>hello</h1>
+                        <h1>ChatGPT</h1>
+                        {icon("gpt", 64, 64)}
                         <div className='nav_box'>
-                        JavaScript는 웹 페이지에 동적인 기능을 추가하기 위해 사용하는 프로그래밍 언어입니다. 브라우저에서 실행되며, 사용자 인터랙션, 애니메이션, 데이터 처리 등을 가능하게 합니다. HTML과 CSS와 함께 웹의 핵심 기술 중 하나로, 클라이언트와 서버 측 모두에서 사용될 수 있습니다.
+                        ChatGPT는 OpenAI에서 개발한 대화형 인공지능 모델입니다. 자연어 이해와 생성 능력을 통해 사용자와 대화하거나 다양한 질문에 답변할 수 있습니다. 주로 고객 지원, 정보 검색, 창작 활동 등의 다양한 응용 분야에서 사용됩니다.
                         </div>
                     </span>
                     <span className=''>
@@ -88,16 +99,14 @@ function Home() {
             </div>
             <div className='center'>
                 <div class='field'>
-                    <button class='has-tooltip'>This is a button</button>
+                    <button class='has-tooltip'>toolTIp</button>
                     <span class='tooltip red'>
                     <p>This is a red tooltip</p>
                     </span>
                 </div>
             </div>
             
-            <div class="contents">
-            
-            </div>
+            dasdaads
             
         </div>
     );
