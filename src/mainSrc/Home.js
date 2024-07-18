@@ -52,7 +52,9 @@ function Home() {
                 <div className='nav'>
                     <div className='nav_title'>
                         <h1>마크업 Language 및 Reference</h1>
+                        <div className='text'>
                         <p>AI를 통한 개발을 지향한다는 것은 혁신적이고 효율적인 미래를 설계하는 것입니다. 인공지능의 힘을 활용하여 복잡한 문제를 해결하고, 창의적 아이디어를 현실로 만들어갑니다. 이를 통해 우리는 더 스마트하고, 더 빠르게, 더 나은 세상을 만들어갈 것입니다.</p>
+                        </div>
                     </div>
                 
                     <span className='list_red'>
@@ -106,7 +108,17 @@ function Home() {
                 </div>
             </div>
             
-            dasdaads
+           <div className='slider_section'>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+           </div>
             
         </div>
     );
