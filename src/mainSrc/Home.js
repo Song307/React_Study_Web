@@ -79,8 +79,8 @@ function Home() {
                         </div>
                     </span>
                     <span className='list_yellow'>
-                        <h1>ChatGPT</h1>
-                        {icon("gpt", 64, 64)}
+                        <h1>OpenAI</h1>
+                        <a href='https://chat.lmsys.org/'>{icon("gpt", 64, 64)}</a>
                         <div className='nav_box'>
                         ChatGPT는 OpenAI에서 개발한 대화형 인공지능 모델입니다. 자연어 이해와 생성 능력을 통해 사용자와 대화하거나 다양한 질문에 답변할 수 있습니다. 주로 고객 지원, 정보 검색, 창작 활동 등의 다양한 응용 분야에서 사용됩니다.
                         </div>
@@ -92,15 +92,20 @@ function Home() {
                         데이터베이스(Database)는 데이터를 체계적으로 저장하고 관리하는 시스템입니다. 효율적인 데이터 검색, 삽입, 삭제, 업데이트를 지원하며, 데이터의 무결성과 일관성을 유지합니다. 다양한 형태의 데이터베이스가 있으며, 관계형 데이터베이스(SQL 기반)와 비관계형 데이터베이스(NoSQL 기반)가 대표적입니다.
                         </div>
                     </span>
+                    <block className='block_box'>
+                    
+                    </block>
+                    
                     
                 </div>
+                
             </div>
 
             
             <div className="contents">
             </div>
             <div className='center'>
-                <div class='field'>
+                <div id="target" class='field'>
                     <button class='has-tooltip'>toolTIp</button>
                     <span class='tooltip red'>
                     <p>This is a red tooltip</p>

@@ -20,6 +20,7 @@ function Navigator(){
                 <li><a href="/">Notion</a></li>
                 <li><a href="/login">LoginForm</a></li>
                 <li><a href="https://pixabay.com/ko/images/search/graphic/">PixaBay</a></li>
+                <li><a href="#target">toolTIp</a></li>
                 <div className='li_icon_nav'>
                     <div className='li_icon_icon'>
                     <li><a href="https://github.com/Song307?tab=repositories">
