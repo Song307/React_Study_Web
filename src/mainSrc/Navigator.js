@@ -43,7 +43,7 @@ function Navigator(){
                     </svg>
                     </a></li>
                     </div>
-
+                    
                     <li><div className='input_box'>
                     <input placeholder='Search'></input>
                     <div className='Search_button'>
