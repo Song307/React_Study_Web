@@ -13,7 +13,7 @@
 
 /* filter: blur(4px); */
 
-.video_box { position: relative;  width: 1903px; height: 800px; overflow: hidden; margin: 0px auto;}
+.video_box { position: relative;  width: 100%; height: 800px; overflow: hidden; margin: 0px auto;}
 
 .video_box video { width: 100%; }
 
@@ -23,7 +23,7 @@
     text-align: center;
     position: absolute;
     top: 50px;
-    width: 1901px;
+    width: 100%;
     height: 800px;
     color: white;
     display: inline;

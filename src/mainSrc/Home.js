@@ -44,9 +44,11 @@ function Home() {
             
             <div className="contents">
             </div>
+            <div className='container'>
+            </div>
             
             <div class="contents">
-    
+            
             </div>
             
         </div>
