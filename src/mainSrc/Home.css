@@ -66,7 +66,7 @@
 }
 .contents .nav{
     width: 100%;
-    padding-left: 10%;
+    padding-left: 23%;
     margin-right: 1fr;
     display: flex;
     height: 15vw;
@@ -77,7 +77,7 @@
 .contents .nav h1{
 }
 .contents .nav:hover{
-    padding-left: 5%;
+    padding-left: 6%;
 }
 .contents .nav .nav_title{
     font-size:  0.8vw;
@@ -116,7 +116,7 @@
 }
 
 .contents .nav span h1{
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 .contents .nav span:hover {
     width: 20vw;
