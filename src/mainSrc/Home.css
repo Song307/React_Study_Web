@@ -78,6 +78,7 @@
 }
 .contents .nav:hover{
     padding-left: 6%;
+    color: white;
 }
 .contents .nav .nav_title{
     font-size:  0.8vw;
