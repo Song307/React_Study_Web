@@ -28,7 +28,7 @@ function icon(icon, width, height){
             </svg>
         )
     }
-}
+}   
 
 function Home() {
     const startRef = useRef();
@@ -121,7 +121,7 @@ function Home() {
                 
             </div>
             <div>
-                t00l
+                maingi
             </div>
            </div>
             
